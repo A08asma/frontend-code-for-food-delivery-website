@@ -1,0 +1,165 @@
+/* General styles */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  background-color: #f44336;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 20px;
+}
+
+button:hover {
+  background-color: #d32f2f;
+}
+
+/* Header styles */
+
+header {
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #f44336;
+}
+
+/* Banner styles */
+
+#banner {
+  background-image: url('banner.jpg');
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+  padding: 200px;
+  text-align: center;
+}
+
+#banner h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+#banner p {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.button {
+  background-color: #f44336;
+  color: #fff;
+  display: inline-block;
+  font-size: 16px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #d32f2f;
+}
+
+/* Menu styles */
+
+#menu {
+  background-color: #f5f5f5;
+  padding: 50px;
+}
+
+#menu h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+#menu ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#menu li {
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  margin: 20px;
+  overflow: hidden;
+  text-align: center;
+  width: 300px;
+}
+
+#menu li img {
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
+}
+
+#menu li h3 {
+  font-size: 24px;
+  margin: 20px;
+}
+
+#menu li p {
+  font-size: 16px;
+  margin: 20px;
+}
+
+.price {
+  background-color: #f44336;
+  color: #fff;
+  display: inline-block;
+  font-size: 16px;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+/* About styles */
+
+#about {
+  background-color: #fff;
+  padding: 50px;
+  text-align: center;
+}
+
+#about h2 {
+  font
